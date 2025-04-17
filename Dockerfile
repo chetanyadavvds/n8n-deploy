@@ -8,4 +8,4 @@ ENV N8N_BASIC_AUTH_PASSWORD=strongpassword123
 
 EXPOSE 5678
 
-CMD ["tini", "--", "n8n"]
+CMD ["n8n"]
